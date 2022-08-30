@@ -14,4 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_tissot.mk
+    $(LOCAL_DIR)/arrow_tissot.mk
+
+COMMON_LUNCH_CHOICES := \
+    arrow_tissot-eng \
+    arrow_tissot-userdebug \
+    arrow_tissot-user
